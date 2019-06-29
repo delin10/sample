@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view>
+    <h:form>
+        <table>
+            <tr>
+                <td>name:</td>
+                <td>
+                    <h:outputText id="name" value="#{book.name}">
+                        <f:converter converterId="ChineseCodeConverter"/>
+                    </h:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td>isbn:</td>
+                <td>
+                    <h:outputText id="isbn" value="#{book.isbn}">
+                    </h:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td>author:</td>
+                <td>
+                    <h:outputText id="author" value="#{book.author}">
+                        <f:converter converterId="AuthorConverter"/>
+                    </h:outputText>
+                </td>
+            </tr>
+
+            <tr>
+                <td>publishTime:</td>
+                <td>
+                    <h:outputText id="publishTime" value="#{book.publishTime}">
+                        <f:convertDateTime pattern="yyyy-mm-dd"/>
+                    </h:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td>price:</td>
+                <td>
+                    <h:outputText id="price" value="#{book.price}">
+                    </h:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td>firstType:</td>
+                <td>
+                    <h:outputText id="firstType" value="#{book.formatFirstType}">
+                    </h:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td>secondType:</td>
+                <td>
+                    <h:outputText id="secondType" value="#{book.formatSecondType}">
+                        <f:converter converterId="SecondClassTypeEnumConverter"/>
+                    </h:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h:commandButton id="submit-button" value="Submit" action="#{AddBookAction.processAction}">
+                    </h:commandButton>
+                </td>
+            </tr>
+        </table>
+    </h:form>
+</f:view>
+</html>

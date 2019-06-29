@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view>
+    <h:form>
+        <table>
+            <tr>
+                <td>name:</td>
+                <td>
+                    <h:inputText id="name" value="#{book.name}">
+                        <f:converter converterId="ChineseCodeConverter"/>
+                    </h:inputText>
+                </td>
+            </tr>
+            <tr>
+                <td>isbn:</td>
+                <td>
+                    <h:inputText id="isbn" value="#{book.isbn}">
+                        <f:validator validatorId="ISBNValidator"/>
+                    </h:inputText>
+                </td>
+            </tr>
+            <tr>
+                <td>author:</td>
+                <td>
+                    <h:inputText id="author" value="#{book.author}">
+                        <!--只能定义一个转换器-->
+                        <!--<f:converter converterId="ChineseCodeConverter"/>-->
+                        <f:converter converterId="AuthorConverter"/>
+                    </h:inputText>
+                </td>
+            </tr>
+
+            <tr>
+                <td>publishTime:</td>
+                <td>
+                    <h:inputText id="publishTime" value="#{book.publishTime}">
+                        <f:convertDateTime pattern="yyyy-mm-dd"/>
+                    </h:inputText>
+                </td>
+            </tr>
+            <tr>
+                <td>price:</td>
+                <td>
+                    <h:inputText id="price" value="#{book.price}">
+                        <f:validateDoubleRange minimum="0.1"/>
+                    </h:inputText>
+                </td>
+            </tr>
+            <tr>
+                <td>firstType:</td>
+                <td>
+                    <h:selectOneMenu value="#{book.firstType}" onchange="submit()"
+                                     valueChangeListener="#{selects.typeChanged}"
+                                     converter="FirstClassTypeEnumConverter">
+                        <f:selectItems value="#{selects.oneClassTypes}" var="type"
+                                       itemLabel="#{type.label}" itemValue="#{type.name}"/>
+                    </h:selectOneMenu>
+                </td>
+            </tr>
+
+            <tr>
+                <td>secondType:</td>
+                <td>
+                    <h:selectOneMenu value="#{book.secondType}">
+                        <f:selectItems value="#{selects.twoClassTypes}" var="type"
+                                       itemLabel="#{type.label}" itemValue="#{type.name}"/>
+                    </h:selectOneMenu>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h:commandButton id="submit-button" value="Submit" action="addbook_confirm">
+                    </h:commandButton>
+                </td>
+            </tr>
+            <h:messages style="color:red"/>
+
+        </table>
+    </h:form>
+</f:view>
+</html>
