@@ -5,4 +5,5 @@
     <import resource="spring-context.xml"/>
     <import resource="spring-mvc.xml"/>
     <import resource="spring-hibernate.xml"/>
+    <bean class="nil.ed.config.RedisConfig"/>
 </beans>

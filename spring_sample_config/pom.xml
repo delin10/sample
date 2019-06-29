@@ -3,7 +3,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>nil.ed</groupId>
     <artifactId>spring_sample_config</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -25,9 +24,27 @@
         <redis.version>3.0.1</redis.version>
         <lettuce.version>5.1.6.RELEASE</lettuce.version>
         <spring-data-redis.version>2.1.6.RELEASE</spring-data-redis.version>
+        <jackson.version>2.9.0</jackson.version>
     </properties>
 
     <dependencies>
+
+        <!--jackson-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
         <!--redis-->
         <dependency>
             <groupId>io.lettuce</groupId>
