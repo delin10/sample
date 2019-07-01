@@ -9,6 +9,5 @@
         <module name="spring_sample_config" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
   </component>
 </project>

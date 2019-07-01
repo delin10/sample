@@ -4,6 +4,5 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <import resource="spring-context.xml"/>
     <import resource="spring-mvc.xml"/>
-    <import resource="spring-hibernate.xml"/>
-    <bean class="nil.ed.config.RedisConfig"/>
+<!--    <import resource="spring-hibernate.xml"/>-->
 </beans>

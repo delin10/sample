@@ -11,4 +11,5 @@
     <cxt:component-scan
             base-package="nil.ed.controller" />
     <import resource="spring-interceptor.xml"/>
+    <import resource="spring-json.xml"/>
 </beans>
