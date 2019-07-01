@@ -8,21 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c4f021e9-4598-43d7-87d0-8dd704723b8d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/sample.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nil/ed/config/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nil/ed/config/JdbcTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nil/ed/config/OrmIntegrationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nil/ed/repository/HibernateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nil/ed/repository/JdbcRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nil/ed/rowmapper/TestEntityRowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nil/ed/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nil/ed/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/spring-jndi.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/spring-json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nil/ed/config/TestOrmIntegrationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nil/ed/repository/TestJdbcRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/test.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_sample_config_Web_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
@@ -32,11 +21,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_sample_config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_sample_config.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nil/ed/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nil/ed/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/spring-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/spring-root.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/spring-root.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/nil/ed/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nil/ed/controller/HelloController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-context.xml" afterDir="false" />
@@ -537,8 +521,37 @@
       <updated>1561965882207</updated>
       <workItem from="1561965883487" duration="1739000" />
       <workItem from="1561967654186" duration="12616000" />
-      <workItem from="1561987223737" duration="857000" />
+      <workItem from="1561987223737" duration="1119000" />
     </task>
+    <task id="LOCAL-00001" summary="数据源配置">
+      <created>1561988196209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561988196209</updated>
+    </task>
+    <task id="LOCAL-00002" summary="JdbcTemplate使用示例">
+      <created>1561988243163</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561988243163</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Hibernate集成使用示例">
+      <created>1561988303085</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561988303085</updated>
+    </task>
+    <task id="LOCAL-00004" summary="无关紧要">
+      <created>1561988332335</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561988332335</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -565,7 +578,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15212000" />
+    <option name="totallyTimeSpent" value="15474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -578,7 +591,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992" visible="true" weight="0.18240343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -590,7 +602,7 @@
       <window_info id="Web" order="7" sideWeight="0.5005587" side_tool="true" weight="0.17757511" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.35977653" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" weight="0.35977653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -603,7 +615,7 @@
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32960895" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49946353" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -618,6 +630,13 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="数据源配置" />
+    <MESSAGE value="JdbcTemplate使用示例" />
+    <MESSAGE value="Hibernate集成使用示例" />
+    <MESSAGE value="无关紧要" />
+    <option name="LAST_COMMIT_MESSAGE" value="无关紧要" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/nil/ed/dao/TestDAOTest.java">

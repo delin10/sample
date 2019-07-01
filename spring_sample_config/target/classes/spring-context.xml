@@ -6,5 +6,6 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
     <bean id="hello" class="nil.ed.bean.HelloWorldBean" scope="singleton"></bean>
-    <cxt:component-scan base-package="nil.ed.bean,nil.ed.dao"/>
+    <cxt:component-scan base-package="nil.ed.bean,nil.ed.dao,nil.ed.repository"/>
+    <cxt:component-scan base-package="nil.ed.config"/>
 </beans>

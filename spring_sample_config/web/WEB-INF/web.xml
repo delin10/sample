@@ -4,6 +4,14 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
+
+    <resource-ref>
+        <description>DB Connection</description>
+        <res-ref-name>jdbc/mysql</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath:spring-root.xml</param-value>
@@ -15,13 +23,17 @@
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath:spring-root.xml</param-value>
         </init-param>
+        <init-param>
+            <param-name>spring.profiles.active</param-name>
+            <param-value>jdbc</param-value>
+        </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
 
 
     <servlet-mapping>
         <servlet-name>appServlet</servlet-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>*.do</url-pattern>
     </servlet-mapping>
     <display-name>Archetype Created Web Application</display-name>
 </web-app>
