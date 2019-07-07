@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a892078-a1ff-4e93-a5fc-1a6f898a2afc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JDK_StringTokenizer_sample/JDK_StringTokenizer_sample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../juit_annotation_sample/juit_annotation_sample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../juit_annotation_sample/src/test/java/nil/ed/TestName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/leetcode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/src/main/java/nil/ed/year19/month7/DuplitcateProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logging_slf4j_log4j2_sample/src/main/java/nil/ed/log4j/SLF4JOnLog4JLoggingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logging_slf4j_log4j2_sample/src/main/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/.idea/artifacts/springwebsocketsample_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/springwebsocketsample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/src/main/java/nil/ed/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/src/main/java/nil/ed/controller/WebsocketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/src/main/java/nil/ed/handler/SpringWebSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/src/main/java/nil/ed/interceptor/SpringWebSocketHandlerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/src/main/webapp/send.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/src/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/src/resources/spring-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/src/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/src/resources/spring-root.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springwebsocketsample/src/resources/spring-websocket.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../string_append_sample/string_append_sample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_sample_config/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_sample_config/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_sample_config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_sample_config/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="logging_slf4j_sample" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/nil/ed/TestSLF4J.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nil/ed/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nil/ed/jdk144/LogManagerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/logging/LogManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33075">
+              <caret line="1300" column="44" selection-start-line="1300" selection-start-column="44" selection-end-line="1300" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test-resources/jdklogging.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1323">
+              <caret line="49" column="25" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>java.util.logging.config.f</find>
+      <find>readConfiguration</find>
+      <find>readConfiguration()</find>
+      <find>getLogger</find>
+      <find>demandLogger</find>
+      <find>manager</find>
+      <find>read</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\熊文琳\Desktop\2019\github\sample\logging_slf4j_sample\src\main\java\nil\ed\jdk144</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/nil/ed/jdk144/MyFormatter.java" />
+        <option value="$PROJECT_DIR$/src/resources/jdk-logging.properties" />
+        <option value="$PROJECT_DIR$/src/resources/jdklogging.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/nil/ed/TestSLF4J.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nil/ed/jdk144/LogManagerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nil/ed/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nil/ed/jdk144/SLF4JOnJDKLoggerTest.java" />
+        <option value="$PROJECT_DIR$/src/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/resources/log4j2.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/nil/ed/log4j2/SLF4JOnLog4JTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Program Files/Maven/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="196" />
+    <option name="y" value="38" />
+    <option name="width" value="1396" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="logging_slf4j_jdklogging_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logging_slf4j_jdklogging_sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logging_slf4j_jdklogging_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logging_slf4j_jdklogging_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logging_slf4j_jdklogging_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logging_slf4j_jdklogging_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logging_slf4j_jdklogging_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logging_slf4j_jdklogging_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logging_slf4j_jdklogging_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logging_slf4j_jdklogging_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logging_slf4j_jdklogging_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logging_slf4j_jdklogging_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ed" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk144" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="logging_slf4j_jdklogging_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logging_slf4j_jdklogging_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\熊文琳\Desktop\2019\github\sample\logging_slf4j_sample\src\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\熊文琳\Desktop\2019\github\sample\logging_slf4j_sample\src\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SLF4JOnJDKLoggerTest">
+    <configuration name="SLF4JOnJDKLoggerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nil.ed.jdk144.SLF4JOnJDKLoggerTest" />
+      <module name="logging_slf4j_sample" />
+      <option name="VM_PARAMETERS" value="-Djava.util.logging.config.file=$OutputPath$/logging.properties" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nil.ed.jdk144.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSLF4J (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logging_slf4j_sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nil.ed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nil.ed" />
+      <option name="MAIN_CLASS_NAME" value="nil.ed.TestSLF4J" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSLF4J" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logging_slf4j_sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nil.ed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nil.ed" />
+      <option name="MAIN_CLASS_NAME" value="nil.ed.TestSLF4J" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Djava.util.logging.config.file=jdklogging.properties" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSLF4J.testJDK14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logging_slf4j_sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nil.ed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nil.ed" />
+      <option name="MAIN_CLASS_NAME" value="nil.ed.TestSLF4J" />
+      <option name="METHOD_NAME" value="testJDK14" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SLF4JOnJDKLoggerTest" />
+      <item itemvalue="JUnit.TestSLF4J" />
+      <item itemvalue="JUnit.TestSLF4J (1)" />
+      <item itemvalue="JUnit.TestSLF4J.testJDK14" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SLF4JOnJDKLoggerTest" />
+        <item itemvalue="JUnit.TestSLF4J" />
+        <item itemvalue="JUnit.TestSLF4J.testJDK14" />
+        <item itemvalue="JUnit.TestSLF4J (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a892078-a1ff-4e93-a5fc-1a6f898a2afc" name="Default Changelist" comment="" />
+      <created>1562297313822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562297313822</updated>
+      <workItem from="1562297321402" duration="6821000" />
+      <workItem from="1562477523585" duration="2559000" />
+      <workItem from="1562485511890" duration="790000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestSLF4J - 2019.07.05 at 17h 40m 41s.xml">
+      <configuration name="TestSLF4J" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSLF4J - 2019.07.05 at 17h 41m 19s.xml">
+      <configuration name="TestSLF4J" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSLF4J - 2019.07.05 at 17h 41m 30s.xml">
+      <configuration name="TestSLF4J" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSLF4J - 2019.07.05 at 17h 42m 32s.xml">
+      <configuration name="TestSLF4J" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSLF4J_(1) - 2019.07.05 at 17h 45m 36s.xml">
+      <configuration name="TestSLF4J (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSLF4J_testJDK14 - 2019.07.05 at 17h 46m 38s.xml">
+      <configuration name="TestSLF4J.testJDK14" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSLF4J_testJDK14 - 2019.07.05 at 17h 47m 25s.xml">
+      <configuration name="TestSLF4J.testJDK14" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSLF4J - 2019.07.05 at 17h 47m 44s.xml">
+      <configuration name="TestSLF4J" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSLF4J - 2019.07.05 at 17h 47m 54s.xml">
+      <configuration name="TestSLF4J" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSLF4J - 2019.07.05 at 17h 49m 40s.xml">
+      <configuration name="TestSLF4J" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10170000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49844238" visible="true" weight="0.18401287" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50155765" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2793296" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32960895" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nil/ed/jdk144/MyFormatter.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar!/org/slf4j/ILoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar!/org/slf4j/LoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5724">
+          <caret line="285" column="33" lean-forward="true" selection-start-line="285" selection-start-column="33" selection-end-line="285" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/logging/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="2022" column="56" selection-start-line="2022" selection-start-column="49" selection-end-line="2022" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/logging.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/log4j2.xml" />
+    <entry file="file://$PROJECT_DIR$/src/resources/log4j2.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/nil/ed/jdk144/SLF4JOnJDKLoggerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nil/ed/log4j2/SLF4JOnLog4JTest.java" />
+    <entry file="file://$PROJECT_DIR$/logging_slf4j_sample.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nil/ed/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nil/ed/jdk144/LogManagerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/logging/LogManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33075">
+          <caret line="1300" column="44" selection-start-line="1300" selection-start-column="44" selection-end-line="1300" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test-resources/jdklogging.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nil/ed/TestSLF4J.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
