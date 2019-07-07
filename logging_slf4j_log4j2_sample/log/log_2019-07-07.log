@@ -1,0 +1,18 @@
+2019-07-07 16:58:34 下午 [Thread: main][ Class:nil.ed.log4j.SLF4JOnLog4JLoggingTest  Method: nil.ed.log4j.SLF4JOnLog4JLoggingTest.main(SLF4JOnLog4JLoggingTest.java:10) ]
+INFO:ok
+2019-07-07 16:58:34 下午 [Thread: main][ Class:nil.ed.log4j.SLF4JOnLog4JLoggingTest Method: nil.ed.log4j.SLF4JOnLog4JLoggingTest.main(SLF4JOnLog4JLoggingTest.java:11) ]
+DEBUG:ok
+2019-07-07 16:58:34 下午 [Thread: main][ Class:nil.ed.log4j.SLF4JOnLog4JLoggingTest Method: nil.ed.log4j.SLF4JOnLog4JLoggingTest.main(SLF4JOnLog4JLoggingTest.java:12) ]
+WARN:ok
+2019-07-07 17:00:52 下午 [Thread: main][ Class:nil.ed.log4j.SLF4JOnLog4JLoggingTest  Method: nil.ed.log4j.SLF4JOnLog4JLoggingTest.main(SLF4JOnLog4JLoggingTest.java:10) ]
+INFO:ok
+2019-07-07 17:00:52 下午 [Thread: main][ Class:nil.ed.log4j.SLF4JOnLog4JLoggingTest Method: nil.ed.log4j.SLF4JOnLog4JLoggingTest.main(SLF4JOnLog4JLoggingTest.java:11) ]
+DEBUG:ok
+2019-07-07 17:00:52 下午 [Thread: main][ Class:nil.ed.log4j.SLF4JOnLog4JLoggingTest Method: nil.ed.log4j.SLF4JOnLog4JLoggingTest.main(SLF4JOnLog4JLoggingTest.java:12) ]
+WARN:ok
+2019-07-07 17:03:48 下午 [Thread: main][ Class:nil.ed.log4j.SLF4JOnLog4JLoggingTest  Method: nil.ed.log4j.SLF4JOnLog4JLoggingTest.main(SLF4JOnLog4JLoggingTest.java:10) ]
+INFO:ok
+2019-07-07 17:03:48 下午 [Thread: main][ Class:nil.ed.log4j.SLF4JOnLog4JLoggingTest Method: nil.ed.log4j.SLF4JOnLog4JLoggingTest.main(SLF4JOnLog4JLoggingTest.java:11) ]
+DEBUG:ok
+2019-07-07 17:03:48 下午 [Thread: main][ Class:nil.ed.log4j.SLF4JOnLog4JLoggingTest Method: nil.ed.log4j.SLF4JOnLog4JLoggingTest.main(SLF4JOnLog4JLoggingTest.java:12) ]
+WARN:ok
