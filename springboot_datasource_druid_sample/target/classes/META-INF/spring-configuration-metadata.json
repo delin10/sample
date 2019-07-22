@@ -1,0 +1,96 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.druid",
+      "type": "nil.ed.sample.springboot.config.DataSourceConfig",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.druid.connection-properties",
+      "type": "java.lang.String",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.druid.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.druid.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.druid.max-wait",
+      "type": "java.lang.Long",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.druid.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.druid.password",
+      "type": "java.lang.String",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.druid.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.druid.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.druid.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.druid.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.druid.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.druid.url",
+      "type": "java.lang.String",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.druid.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.druid.username",
+      "type": "java.lang.String",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.druid.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "nil.ed.sample.springboot.config.DataSourceConfig"
+    }
+  ],
+  "hints": []
+}

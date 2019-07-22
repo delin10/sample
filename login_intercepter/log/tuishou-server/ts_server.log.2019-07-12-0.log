@@ -1,0 +1,193 @@
+2019-07-12 20:26:30.603 [main] INFO  nil.ed.App - Starting App on DESKTOP-K5NOLIB with PID 12864 (D:\workspace\idea\sample\login_intercepter\target\classes started by lidelin in D:\workspace\idea\sample\login_intercepter)
+2019-07-12 20:26:30.607 [main] INFO  nil.ed.App - The following profiles are active: dev
+2019-07-12 20:26:31.523 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-07-12 20:26:31.535 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-07-12 20:26:31.542 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-12 20:26:31.542 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-12 20:26:31.638 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-12 20:26:31.638 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 982 ms
+2019-07-12 20:26:31.779 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-12 20:26:31.896 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-07-12 20:26:31.913 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-07-12 20:26:31.916 [main] INFO  nil.ed.App - Started App in 1.803 seconds (JVM running for 2.75)
+2019-07-12 20:27:44.401 [main] INFO  nil.ed.App - Starting App on DESKTOP-K5NOLIB with PID 18952 (D:\workspace\idea\sample\login_intercepter\target\classes started by lidelin in D:\workspace\idea\sample\login_intercepter)
+2019-07-12 20:27:44.410 [main] INFO  nil.ed.App - The following profiles are active: dev
+2019-07-12 20:27:45.861 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-12 20:27:45.875 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:27:45.883 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-12 20:27:45.883 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-12 20:27:45.991 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-12 20:27:45.991 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1446 ms
+2019-07-12 20:27:46.151 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-12 20:27:46.263 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:27:46.281 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-12 20:27:46.283 [main] INFO  nil.ed.App - Started App in 2.478 seconds (JVM running for 3.405)
+2019-07-12 20:27:46.526 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-12 20:27:46.527 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-12 20:27:46.538 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-07-12 20:27:46.557 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:28:30.777 [main] INFO  nil.ed.App - Starting App on DESKTOP-K5NOLIB with PID 18620 (D:\workspace\idea\sample\login_intercepter\target\classes started by lidelin in D:\workspace\idea\sample\login_intercepter)
+2019-07-12 20:28:30.781 [main] INFO  nil.ed.App - The following profiles are active: dev
+2019-07-12 20:28:31.723 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-12 20:28:31.738 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:28:31.748 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-12 20:28:31.749 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-12 20:28:31.861 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-12 20:28:31.861 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1026 ms
+2019-07-12 20:28:32.006 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-12 20:28:32.119 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:28:32.139 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-12 20:28:32.142 [main] INFO  nil.ed.App - Started App in 1.868 seconds (JVM running for 2.65)
+2019-07-12 20:28:36.040 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-12 20:28:36.040 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-12 20:28:36.045 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-07-12 20:28:36.059 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:28:42.844 [http-nio-8080-exec-2] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:29:20.191 [main] INFO  nil.ed.App - Starting App on DESKTOP-K5NOLIB with PID 21756 (D:\workspace\idea\sample\login_intercepter\target\classes started by lidelin in D:\workspace\idea\sample\login_intercepter)
+2019-07-12 20:29:20.194 [main] INFO  nil.ed.App - The following profiles are active: dev
+2019-07-12 20:29:21.126 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-12 20:29:21.136 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:29:21.144 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-12 20:29:21.144 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-12 20:29:21.238 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-12 20:29:21.238 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 995 ms
+2019-07-12 20:29:21.386 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-12 20:29:21.502 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:29:21.520 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-12 20:29:21.522 [main] INFO  nil.ed.App - Started App in 1.83 seconds (JVM running for 2.699)
+2019-07-12 20:29:26.492 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-12 20:29:26.492 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-12 20:29:26.502 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-07-12 20:29:26.516 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:29:49.487 [main] INFO  nil.ed.App - Starting App on DESKTOP-K5NOLIB with PID 14688 (D:\workspace\idea\sample\login_intercepter\target\classes started by lidelin in D:\workspace\idea\sample\login_intercepter)
+2019-07-12 20:29:49.490 [main] INFO  nil.ed.App - The following profiles are active: dev
+2019-07-12 20:29:50.433 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-12 20:29:50.446 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:29:50.455 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-12 20:29:50.455 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-12 20:29:50.570 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-12 20:29:50.570 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1036 ms
+2019-07-12 20:29:50.726 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-12 20:29:50.844 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:29:50.861 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-12 20:29:50.864 [main] INFO  nil.ed.App - Started App in 1.878 seconds (JVM running for 2.787)
+2019-07-12 20:29:54.916 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-12 20:29:54.916 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-12 20:29:54.926 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-07-12 20:29:54.941 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:29:54.941 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 注释null
+2019-07-12 20:30:00.646 [http-nio-8080-exec-2] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:30:00.646 [http-nio-8080-exec-2] INFO  n.e.l.i.AnnotationConditionInterceptor - 注释null
+2019-07-12 20:30:07.030 [http-nio-8080-exec-3] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:30:07.030 [http-nio-8080-exec-3] INFO  n.e.l.i.AnnotationConditionInterceptor - 注释null
+2019-07-12 20:31:52.745 [main] INFO  nil.ed.App - Starting App on DESKTOP-K5NOLIB with PID 18444 (D:\workspace\idea\sample\login_intercepter\target\classes started by lidelin in D:\workspace\idea\sample\login_intercepter)
+2019-07-12 20:31:52.749 [main] INFO  nil.ed.App - The following profiles are active: dev
+2019-07-12 20:31:54.000 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-12 20:31:54.018 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:31:54.029 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-12 20:31:54.029 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-12 20:31:54.153 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-12 20:31:54.153 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1325 ms
+2019-07-12 20:31:54.332 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-12 20:31:54.447 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:31:54.466 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-12 20:31:54.470 [main] INFO  nil.ed.App - Started App in 2.314 seconds (JVM running for 3.211)
+2019-07-12 20:31:56.626 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-12 20:31:56.626 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-12 20:31:56.630 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-07-12 20:31:56.646 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:31:56.646 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 注释null
+2019-07-12 20:31:59.808 [http-nio-8080-exec-2] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:31:59.808 [http-nio-8080-exec-2] INFO  n.e.l.i.AnnotationConditionInterceptor - 注释null
+2019-07-12 20:32:04.597 [http-nio-8080-exec-3] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:32:04.597 [http-nio-8080-exec-3] INFO  n.e.l.i.AnnotationConditionInterceptor - 注释null
+2019-07-12 20:33:02.545 [main] INFO  nil.ed.App - Starting App on DESKTOP-K5NOLIB with PID 21328 (D:\workspace\idea\sample\login_intercepter\target\classes started by lidelin in D:\workspace\idea\sample\login_intercepter)
+2019-07-12 20:33:02.549 [main] INFO  nil.ed.App - The following profiles are active: dev
+2019-07-12 20:33:03.542 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-12 20:33:03.555 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:33:03.562 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-12 20:33:03.562 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-12 20:33:03.660 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-12 20:33:03.660 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1065 ms
+2019-07-12 20:33:03.830 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-12 20:33:04.064 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:33:04.092 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-12 20:33:04.095 [main] INFO  nil.ed.App - Started App in 1.987 seconds (JVM running for 2.995)
+2019-07-12 20:33:05.612 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-12 20:33:05.612 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-12 20:33:05.616 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-07-12 20:33:05.631 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:33:05.632 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 注释null
+2019-07-12 20:34:58.650 [main] INFO  nil.ed.App - Starting App on DESKTOP-K5NOLIB with PID 20944 (D:\workspace\idea\sample\login_intercepter\target\classes started by lidelin in D:\workspace\idea\sample\login_intercepter)
+2019-07-12 20:34:58.652 [main] INFO  nil.ed.App - The following profiles are active: dev
+2019-07-12 20:34:59.520 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-12 20:34:59.530 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:34:59.537 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-12 20:34:59.538 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-12 20:34:59.626 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-12 20:34:59.626 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 939 ms
+2019-07-12 20:34:59.766 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-12 20:34:59.922 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:35:00.002 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-12 20:35:00.010 [main] INFO  nil.ed.App - Started App in 1.93 seconds (JVM running for 2.764)
+2019-07-12 20:35:02.050 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-12 20:35:02.051 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-12 20:35:02.057 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-07-12 20:35:02.071 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:35:02.071 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 注释@nil.ed.login.annotation.ConditionRequired(requireRegister=true, requireLogin=false)
+2019-07-12 20:35:28.834 [http-nio-8080-exec-2] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:35:28.834 [http-nio-8080-exec-2] INFO  n.e.l.i.AnnotationConditionInterceptor - 注释@nil.ed.login.annotation.ConditionRequired(requireRegister=true, requireLogin=false)
+2019-07-12 20:38:38.276 [main] INFO  nil.ed.App - Starting App on DESKTOP-K5NOLIB with PID 12120 (D:\workspace\idea\sample\login_intercepter\target\classes started by lidelin in D:\workspace\idea\sample\login_intercepter)
+2019-07-12 20:38:38.280 [main] INFO  nil.ed.App - The following profiles are active: dev
+2019-07-12 20:38:39.177 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-12 20:38:39.189 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:38:39.196 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-12 20:38:39.196 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-12 20:38:39.295 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-12 20:38:39.295 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 961 ms
+2019-07-12 20:38:39.597 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:38:39.636 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-12 20:38:39.644 [main] INFO  nil.ed.App - Started App in 1.919 seconds (JVM running for 2.889)
+2019-07-12 20:38:44.360 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-12 20:38:44.360 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-12 20:38:44.368 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-07-12 20:38:44.383 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:38:44.384 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 注释@nil.ed.login.annotation.ConditionRequired(requireRegister=true, requireLogin=false)
+2019-07-12 20:38:44.641 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2019-07-12 20:38:44.704 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class java.util.LinkedHashMap]
+2019-07-12 20:38:52.005 [http-nio-8080-exec-3] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:38:52.005 [http-nio-8080-exec-3] INFO  n.e.l.i.AnnotationConditionInterceptor - 注释@nil.ed.login.annotation.ConditionRequired(requireRegister=true, requireLogin=false)
+2019-07-12 20:39:13.743 [main] INFO  nil.ed.App - Starting App on DESKTOP-K5NOLIB with PID 16096 (D:\workspace\idea\sample\login_intercepter\target\classes started by lidelin in D:\workspace\idea\sample\login_intercepter)
+2019-07-12 20:39:13.745 [main] INFO  nil.ed.App - The following profiles are active: dev
+2019-07-12 20:39:14.562 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-12 20:39:14.573 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:39:14.580 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-12 20:39:14.581 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-12 20:39:14.672 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-12 20:39:14.673 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 889 ms
+2019-07-12 20:39:14.897 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:39:14.914 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-12 20:39:14.916 [main] INFO  nil.ed.App - Started App in 1.7 seconds (JVM running for 2.525)
+2019-07-12 20:39:20.367 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-12 20:39:20.367 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-12 20:39:20.374 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-07-12 20:39:20.385 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:39:20.385 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 注释@nil.ed.login.annotation.ConditionRequired(requireRegister=true, requireLogin=false)
+2019-07-12 20:39:23.194 [http-nio-8080-exec-2] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:39:23.194 [http-nio-8080-exec-2] INFO  n.e.l.i.AnnotationConditionInterceptor - 注释@nil.ed.login.annotation.ConditionRequired(requireRegister=true, requireLogin=false)
+2019-07-12 20:40:16.161 [main] INFO  nil.ed.App - Starting App on DESKTOP-K5NOLIB with PID 7420 (D:\workspace\idea\sample\login_intercepter\target\classes started by lidelin in D:\workspace\idea\sample\login_intercepter)
+2019-07-12 20:40:16.164 [main] INFO  nil.ed.App - The following profiles are active: dev
+2019-07-12 20:40:17.167 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-12 20:40:17.179 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:40:17.186 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-12 20:40:17.186 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-12 20:40:17.298 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-12 20:40:17.299 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1085 ms
+2019-07-12 20:40:17.547 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-12 20:40:17.563 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-12 20:40:17.566 [main] INFO  nil.ed.App - Started App in 1.91 seconds (JVM running for 3.168)
+2019-07-12 20:40:20.234 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-12 20:40:20.235 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-12 20:40:20.242 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-07-12 20:40:20.256 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 拦截...
+2019-07-12 20:40:20.256 [http-nio-8080-exec-1] INFO  n.e.l.i.AnnotationConditionInterceptor - 注释@nil.ed.login.annotation.ConditionRequired(requireRegister=true, requireLogin=false)
