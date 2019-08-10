@@ -1,0 +1,413 @@
+2019-08-02 10:03:08.126 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 15432 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 10:03:08.126 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 10:04:22.104 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 10:04:22.682 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:04:23.167 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 10:04:23.182 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 10:04:23.622 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 10:04:33.698 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 10:04:33.713 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 85462 ms
+2019-08-02 10:04:37.182 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 10:04:37.367 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 10:04:37.383 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 10:04:37.399 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 10:04:37.415 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 10:05:01.081 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:06:04.225 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:06:04.240 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 10:06:04.271 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 10:06:04.271 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 176.885 seconds (JVM running for 179.691)
+2019-08-02 10:06:10.203 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 10:06:10.204 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 10:06:10.216 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-08-02 10:06:10.267 [http-nio-8081-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public nil.ed.springboot.sample.request.entity.TestEntity nil.ed.springboot.sample.request.controller.TestController.test(javax.servlet.http.HttpServletResponse,nil.ed.springboot.sample.request.entity.TestEntity,java.lang.String,org.springframework.http.HttpHeaders,java.util.Map<java.lang.String, java.lang.String>,org.springframework.util.MultiValueMap<java.lang.String, java.lang.String>)]
+2019-08-02 10:06:32.131 [Thread-151] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:06:40.011 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 14172 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 10:06:40.011 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 10:06:40.934 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 10:06:40.950 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:06:40.950 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 10:06:40.950 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 10:06:40.950 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 10:06:41.044 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 10:06:41.044 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 955 ms
+2019-08-02 10:06:41.059 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 10:06:41.075 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 10:06:41.075 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 10:06:41.075 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 10:06:41.075 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 10:06:41.248 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:06:41.387 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:06:41.387 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 10:06:41.403 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 10:06:41.418 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 1.988 seconds (JVM running for 3.153)
+2019-08-02 10:06:54.006 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 10:06:54.007 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 10:06:54.013 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-08-02 10:06:54.101 [http-nio-8081-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingRequestCookieException: Missing cookie 'a' for method parameter of type String]
+2019-08-02 10:07:02.071 [http-nio-8081-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingRequestCookieException: Missing cookie 'a' for method parameter of type String]
+2019-08-02 10:07:30.512 [Thread-8] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:07:38.362 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 25640 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 10:07:38.366 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 10:07:39.159 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 10:07:39.174 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:07:39.174 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 10:07:39.174 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 10:07:39.174 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 10:07:39.268 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 10:07:39.268 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 835 ms
+2019-08-02 10:07:39.302 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 10:07:39.306 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 10:07:39.307 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 10:07:39.307 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 10:07:39.307 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 10:07:39.465 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:07:39.590 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:07:39.605 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 10:07:39.621 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 10:07:39.621 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 1.798 seconds (JVM running for 2.889)
+2019-08-02 10:08:00.508 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 10:08:00.509 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 10:08:00.514 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-08-02 10:08:00.589 [http-nio-8081-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2019-08-02 10:08:27.229 [Thread-8] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:08:37.094 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 504 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 10:08:37.110 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 10:08:38.424 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 10:08:38.439 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:08:38.439 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 10:08:38.439 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 10:08:38.439 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 10:08:38.549 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 10:08:38.549 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1314 ms
+2019-08-02 10:08:38.564 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 10:08:38.564 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 10:08:38.564 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 10:08:38.564 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 10:08:38.564 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 10:08:38.736 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:08:38.868 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:08:38.877 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 10:08:38.887 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 10:08:38.887 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 2.924 seconds (JVM running for 4.361)
+2019-08-02 10:13:57.156 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 10:13:57.157 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 10:13:57.163 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-08-02 10:14:52.432 [Thread-10] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:15:05.303 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 24900 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 10:15:05.306 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 10:15:06.199 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 10:15:06.215 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:15:06.215 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 10:15:06.215 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 10:15:06.230 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 10:15:07.526 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 10:15:07.526 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2151 ms
+2019-08-02 10:15:07.558 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 10:15:07.558 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 10:15:07.558 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 10:15:07.558 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 10:15:07.558 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 10:15:07.714 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:15:07.867 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:15:07.876 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 10:15:07.892 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 10:15:07.894 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 3.097 seconds (JVM running for 5.231)
+2019-08-02 10:15:18.177 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 10:15:18.177 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 10:15:18.182 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-08-02 10:18:37.481 [Thread-11] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:18:45.260 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 25544 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 10:18:45.276 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 10:18:46.088 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 10:18:46.088 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:18:46.104 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 10:18:46.104 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 10:18:46.104 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 10:18:46.182 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 10:18:46.182 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 837 ms
+2019-08-02 10:18:46.213 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 10:18:46.213 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 10:18:46.213 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 10:18:46.213 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 10:18:46.213 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 10:18:46.376 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:18:46.495 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:18:46.495 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 10:18:46.511 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 10:18:46.511 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 1.826 seconds (JVM running for 3.111)
+2019-08-02 10:19:04.943 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 10:19:04.944 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 10:19:04.950 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-08-02 10:26:15.979 [Thread-8] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:26:30.195 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 23112 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 10:26:30.199 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 10:26:31.485 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 10:26:31.500 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:26:31.516 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 10:26:31.516 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 10:26:31.516 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 10:26:31.641 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 10:26:31.641 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1336 ms
+2019-08-02 10:26:31.656 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 10:26:31.656 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 10:26:31.656 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 10:26:31.656 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 10:26:31.656 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 10:26:31.874 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:26:32.031 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:26:32.044 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 10:26:32.053 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 10:26:32.053 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 2.744 seconds (JVM running for 4.863)
+2019-08-02 10:26:32.446 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 10:26:32.446 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 10:26:32.454 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-08-02 10:39:49.011 [Thread-10] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:39:58.067 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 25700 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 10:39:58.083 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 10:39:58.934 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 10:39:58.934 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:39:58.949 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 10:39:58.949 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 10:39:58.949 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 10:39:59.043 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 10:39:59.043 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 898 ms
+2019-08-02 10:39:59.059 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 10:39:59.074 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 10:39:59.074 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 10:39:59.074 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 10:39:59.074 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 10:39:59.277 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:39:59.416 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:39:59.432 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 10:39:59.447 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 10:39:59.447 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 1.879 seconds (JVM running for 3.224)
+2019-08-02 10:40:20.703 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 10:40:20.703 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 10:40:20.708 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-08-02 10:41:04.151 [Thread-8] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:41:09.975 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 2116 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 10:41:09.991 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 10:41:10.932 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 10:41:10.948 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:41:10.948 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 10:41:10.948 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 10:41:10.963 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 10:41:11.041 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 10:41:11.041 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 988 ms
+2019-08-02 10:41:11.072 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 10:41:11.072 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 10:41:11.072 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 10:41:11.072 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 10:41:11.072 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 10:41:11.229 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:41:11.358 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:41:11.367 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 10:41:11.381 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 10:41:11.384 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 2.064 seconds (JVM running for 3.284)
+2019-08-02 10:41:18.267 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 10:41:18.268 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 10:41:18.273 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-08-02 10:43:01.493 [Thread-9] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:43:09.122 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 18656 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 10:43:09.122 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 10:43:09.964 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 10:43:09.964 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:43:09.979 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 10:43:09.979 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 10:43:09.979 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 10:43:10.073 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 10:43:10.073 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 888 ms
+2019-08-02 10:43:10.089 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 10:43:10.104 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 10:43:10.104 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 10:43:10.104 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 10:43:10.104 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 10:43:10.278 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:43:10.401 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:43:10.401 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 10:43:10.417 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 10:43:10.417 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 1.813 seconds (JVM running for 2.996)
+2019-08-02 10:43:21.283 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 10:43:21.283 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 10:43:21.290 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-08-02 10:51:08.939 [http-nio-8081-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingRequestHeaderException: Missing request header 'a' for method parameter of type Integer]
+2019-08-02 10:51:09.401 [Thread-8] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:51:18.078 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 22496 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 10:51:18.083 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 10:51:19.167 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 10:51:19.182 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:51:19.182 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 10:51:19.182 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 10:51:19.198 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 10:51:19.304 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 10:51:19.305 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1084 ms
+2019-08-02 10:51:19.328 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 10:51:19.332 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 10:51:19.333 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 10:51:19.333 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 10:51:19.333 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 10:51:19.504 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:51:19.629 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:51:19.644 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 10:51:19.660 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 10:51:19.676 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 2.509 seconds (JVM running for 3.915)
+2019-08-02 10:51:31.918 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 10:51:31.919 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 10:51:31.924 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-08-02 10:51:31.984 [http-nio-8081-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "av"]
+2019-08-02 10:52:29.105 [Thread-9] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:52:34.604 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 1956 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 10:52:34.604 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 10:52:35.417 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 10:52:35.433 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:52:35.433 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 10:52:35.433 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 10:52:35.433 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 10:52:35.526 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 10:52:35.526 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 875 ms
+2019-08-02 10:52:35.542 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 10:52:35.542 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 10:52:35.542 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 10:52:35.542 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 10:52:35.542 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 10:52:35.714 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:52:35.850 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:52:35.858 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 10:52:35.873 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 10:52:35.876 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 1.85 seconds (JVM running for 2.945)
+2019-08-02 10:53:11.486 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 10:53:11.486 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 10:53:11.496 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-08-02 10:54:55.666 [http-nio-8081-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "av"]
+2019-08-02 10:54:56.081 [Thread-8] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:55:01.229 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 25676 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 10:55:01.245 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 10:55:02.035 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 10:55:02.050 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:55:02.050 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 10:55:02.050 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 10:55:02.066 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 10:55:02.144 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 10:55:02.144 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 832 ms
+2019-08-02 10:55:02.175 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 10:55:02.175 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 10:55:02.175 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 10:55:02.175 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 10:55:02.175 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 10:55:02.340 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 10:55:02.463 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 10:55:02.463 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 10:55:02.479 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 10:55:02.479 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 1.713 seconds (JVM running for 3.183)
+2019-08-02 10:55:15.353 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 10:55:15.353 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 10:55:15.361 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-08-02 10:56:41.194 [http-nio-8081-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "av"]
+2019-08-02 10:56:41.612 [Thread-8] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:02:59.156 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 14620 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 14:02:59.160 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 14:03:02.597 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 14:03:02.629 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 14:03:02.642 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 14:03:02.643 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 14:03:02.659 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 14:03:02.880 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 14:03:02.880 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3651 ms
+2019-08-02 14:03:02.953 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 14:03:02.966 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 14:03:02.966 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 14:03:02.967 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 14:03:02.967 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 14:03:23.463 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:09:04.280 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 14:09:04.361 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 14:09:04.999 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 14:09:05.140 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 366.735 seconds (JVM running for 368.383)
+2019-08-02 14:10:35.126 [Thread-46] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:10:46.164 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 23504 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 14:10:46.164 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 14:11:54.093 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 14:11:54.521 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 14:11:55.077 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 14:11:55.093 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 14:11:55.313 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 14:12:04.938 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 14:12:04.954 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 78728 ms
+2019-08-02 14:12:08.124 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 14:12:08.298 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 14:12:08.315 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 14:12:08.331 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 14:12:08.349 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 14:12:32.621 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:13:07.266 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 14:13:07.333 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 14:13:07.984 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 14:13:08.234 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 142.469 seconds (JVM running for 143.676)
+2019-08-02 14:13:15.818 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 14:13:15.834 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 14:13:16.354 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 506 ms
+2019-08-02 14:14:55.490 [http-nio-8081-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "av"]
+2019-08-02 14:15:50.629 [http-nio-8081-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingRequestHeaderException: Missing request header 'a' for method parameter of type Integer]
+2019-08-02 14:15:51.205 [Thread-174] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:16:20.733 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 25560 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 14:16:20.733 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 14:17:29.879 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 14:17:30.297 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 14:17:30.859 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 14:17:30.874 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 14:17:31.077 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 14:17:40.853 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 14:17:40.868 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 80027 ms
+2019-08-02 14:17:44.054 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 14:17:44.225 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 14:17:44.241 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 14:17:44.257 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 14:17:44.272 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 14:18:07.814 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:18:50.061 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-08-02 14:18:50.124 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-02 14:18:50.786 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-08-02 14:18:51.353 [main] INFO  n.e.s.s.request.StartupApplication - Started StartupApplication in 151.248 seconds (JVM running for 152.661)
+2019-08-02 14:19:00.968 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 14:19:00.984 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-02 14:19:01.486 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 489 ms
+2019-08-02 14:41:13.680 [Thread-175] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:41:31.082 [main] INFO  n.e.s.s.request.StartupApplication - Starting StartupApplication on DESKTOP-K5NOLIB with PID 10284 (D:\workspace\idea\github\sample\springboot_request__sample\target\classes started by lidelin in D:\workspace\idea\github\sample\springboot_request__sample)
+2019-08-02 14:41:31.082 [main] INFO  n.e.s.s.request.StartupApplication - The following profiles are active: dev
+2019-08-02 14:41:33.355 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[nil.ed.springboot.sample.request]' package. Please check your configuration.
+2019-08-02 14:41:34.636 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-02 14:41:34.667 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-02 14:41:34.682 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-02 14:41:34.682 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-08-02 14:41:34.698 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\mipan;D:\Program Files\Git\cmd;D:\Program Files\Mercurial\;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\lidelin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;D:\Program Files\mysql-8.0.16-winx64\bin;D:\Program Files\mongodb\bin;D:\Program Files\Redis;D:\Program Files\Java\jdk1.8.0_211\bin;D:\Program Files\Java\jdk1.8.0_211\jre\bin;D:\Program Files\JetBrains\PyCharm 2018.3.7\bin;;D:\dev\scala-2.13.0\bin;;.]
+2019-08-02 14:41:34.917 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-02 14:41:34.917 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3757 ms
+2019-08-02 14:41:34.992 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-02 14:41:35.008 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-02 14:41:35.008 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-02 14:41:35.008 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-08-02 14:41:35.008 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-02 14:42:09.388 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:42:27.547 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-08-02 14:42:27.657 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-02 14:42:27.938 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2019-08-02 14:42:30.766 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+

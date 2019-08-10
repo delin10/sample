@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="nil.ed.mapper.TestMapper">
-    <resultMap id="BaseResultMap" type="nil.ed.entity.TestEntity">
-    	<result column="id" jdbcType="BIGINT" property="couponId"/>
-        <result column="config_id" jdbcType="BIGINT" property="configId"/>
-        <result column="uid" jdbcType="BIGINT" property="uid"/>
-        <result column="real_coupon_id" jdbcType="BIGINT" property="realCouponId"/>
-        <result column="end_time" jdbcType="BIGINT" property="endTime"/>
-        <result column="status" jdbcType="TINYINT" property="status"/>
-        <result column="ctime" jdbcType="BIGINT" property="ctime"/>
-    </resultMap>
+    <select id="listTests" resultType="nil.ed.entity.TestEntity">
+        select id,content from test limit 10;
+    </select>
 </mapper>

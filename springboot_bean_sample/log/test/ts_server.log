@@ -1,0 +1,21 @@
+2019-07-29 16:26:59.185 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - Starting TestApplicationContextAwareTest on DESKTOP-K5NOLIB with PID 21668 (started by lidelin in D:\workspace\idea\github\sample\springboot_bean_sample)
+2019-07-29 16:26:59.186 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - The following profiles are active: dev
+2019-07-29 16:27:00.056 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - Started TestApplicationContextAwareTest in 1.511 seconds (JVM running for 2.657)
+2019-07-29 16:28:29.497 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - Starting TestApplicationContextAwareTest on DESKTOP-K5NOLIB with PID 20848 (started by lidelin in D:\workspace\idea\github\sample\springboot_bean_sample)
+2019-07-29 16:28:29.498 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - The following profiles are active: dev
+2019-07-29 16:28:30.026 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - Started TestApplicationContextAwareTest in 1.085 seconds (JVM running for 2.128)
+2019-07-29 16:45:41.509 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - Starting TestApplicationContextAwareTest on DESKTOP-K5NOLIB with PID 21420 (started by lidelin in D:\workspace\idea\github\sample\springboot_bean_sample)
+2019-07-29 16:45:41.511 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - The following profiles are active: dev
+2019-07-29 16:45:43.307 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-29 16:45:43.593 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - Started TestApplicationContextAwareTest in 2.714 seconds (JVM running for 3.767)
+2019-07-29 16:45:43.838 [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-29 16:47:42.043 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - Starting TestApplicationContextAwareTest on DESKTOP-K5NOLIB with PID 22392 (started by lidelin in D:\workspace\idea\github\sample\springboot_bean_sample)
+2019-07-29 16:47:42.045 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - The following profiles are active: dev
+2019-07-29 16:47:43.938 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-29 16:47:44.228 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - Started TestApplicationContextAwareTest in 2.702 seconds (JVM running for 3.807)
+2019-07-29 16:47:44.432 [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-29 16:49:53.564 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - Starting TestApplicationContextAwareTest on DESKTOP-K5NOLIB with PID 13412 (started by lidelin in D:\workspace\idea\github\sample\springboot_bean_sample)
+2019-07-29 16:49:53.565 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - The following profiles are active: dev
+2019-07-29 16:49:55.395 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-29 16:49:55.693 [main] INFO  n.e.s.s.b.a.TestApplicationContextAwareTest - Started TestApplicationContextAwareTest in 2.612 seconds (JVM running for 3.688)
+2019-07-29 16:49:55.931 [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

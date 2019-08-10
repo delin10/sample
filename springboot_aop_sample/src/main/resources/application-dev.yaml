@@ -1,0 +1,10 @@
+server:
+  port: 8081
+logging:
+  config: classpath:logback/logback-dev.xml
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver #代替com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=GMT%2B8 #不加serverTimezone出现时区问题
+    username: root
+    password: 123456

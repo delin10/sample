@@ -1,0 +1,27 @@
+2019-08-05 10:52:02.663 [main] INFO  nil.ed.BeanTest - Starting BeanTest on DESKTOP-K5NOLIB with PID 11564 (started by lidelin in D:\workspace\idea\github\sample\springboot_sample)
+2019-08-05 10:52:02.665 [main] INFO  nil.ed.BeanTest - The following profiles are active: dev
+2019-08-05 10:52:03.784 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'beanConfig' of type [nil.ed.test.config.BeanConfig$$EnhancerBySpringCGLIB$$cd50f7b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 10:52:04.771 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-05 10:52:05.177 [main] INFO  nil.ed.BeanTest - Started BeanTest in 3.226 seconds (JVM running for 5.548)
+2019-08-05 10:52:05.497 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-05 10:54:43.497 [main] INFO  nil.ed.BeanTest - Starting BeanTest on DESKTOP-K5NOLIB with PID 16252 (started by lidelin in D:\workspace\idea\github\sample\springboot_sample)
+2019-08-05 10:54:43.499 [main] INFO  nil.ed.BeanTest - The following profiles are active: dev
+2019-08-05 10:54:44.719 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'beanConfig' of type [nil.ed.test.config.BeanConfig$$EnhancerBySpringCGLIB$$10e700a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 10:54:45.467 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-05 10:54:45.892 [main] INFO  nil.ed.BeanTest - Started BeanTest in 3.1 seconds (JVM running for 4.127)
+2019-08-05 10:54:46.167 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-05 10:58:45.531 [main] INFO  nil.ed.BeanTest - Starting BeanTest on DESKTOP-K5NOLIB with PID 17604 (started by lidelin in D:\workspace\idea\github\sample\springboot_sample)
+2019-08-05 10:58:45.532 [main] INFO  nil.ed.BeanTest - The following profiles are active: dev
+2019-08-05 10:58:46.587 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'beanConfig' of type [nil.ed.test.config.BeanConfig$$EnhancerBySpringCGLIB$$cd50f7b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 10:58:47.129 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-05 10:58:47.470 [main] INFO  nil.ed.BeanTest - Started BeanTest in 2.625 seconds (JVM running for 3.564)
+2019-08-05 10:58:47.762 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-05 14:44:48.293 [main] INFO  nil.ed.BeanTest - Starting BeanTest on DESKTOP-K5NOLIB with PID 12792 (started by lidelin in D:\workspace\idea\github\sample\springboot_sample)
+2019-08-05 14:44:48.294 [main] INFO  nil.ed.BeanTest - The following profiles are active: dev
+2019-08-05 14:44:49.442 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'beanConfig' of type [nil.ed.test.config.BeanConfig$$EnhancerBySpringCGLIB$$da5aa3eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 14:45:34.478 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-05 14:45:58.338 [main] INFO  nil.ed.BeanTest - Started BeanTest in 70.721 seconds (JVM running for 72.312)
+2019-08-05 14:46:06.120 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-05 14:49:25.525 [main] INFO  nil.ed.BeanTest - Starting BeanTest on DESKTOP-K5NOLIB with PID 17276 (started by lidelin in D:\workspace\idea\github\sample\springboot_sample)
+2019-08-05 14:49:25.526 [main] INFO  nil.ed.BeanTest - The following profiles are active: dev
+2019-08-05 14:49:26.770 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'beanConfig' of type [nil.ed.test.config.BeanConfig$$EnhancerBySpringCGLIB$$78585127] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)

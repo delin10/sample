@@ -1,0 +1,1 @@
+2019-08-04 10:06:35.265 [Thread-8] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

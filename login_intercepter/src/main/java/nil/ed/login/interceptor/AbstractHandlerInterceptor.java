@@ -34,11 +34,13 @@ public class AbstractHandlerInterceptor implements HandlerInterceptor {
      */
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
-
+        System.out.println(this+" -- postHandle");
     }
 
     /**
      * 视图渲染完成后
+     * 只有preHandle返回true的那部分拦截器，
+     * 部分完成也会调用
      * @param request
      * @param response
      * @param handler
@@ -47,6 +49,6 @@ public class AbstractHandlerInterceptor implements HandlerInterceptor {
      */
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
-
+        System.out.println(this+" -- afterCompletion");
     }
 }
