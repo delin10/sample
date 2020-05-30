@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+logging:
+  config: classpath:logback/logback-dev.xml
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    template:
+      retry:
+        enabled: true
+        initial-interval: 2s
